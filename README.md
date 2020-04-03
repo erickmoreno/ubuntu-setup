@@ -25,6 +25,11 @@ gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;
 ```
 ## Dev
 
+### zsh
+
+https://www.addictivetips.com/ubuntu-linux-tips/switch-from-bash-to-zsh-on-linux/
+
+
 ### vscode
 
 ``` bash

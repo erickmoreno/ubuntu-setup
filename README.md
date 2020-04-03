@@ -14,4 +14,8 @@ testdisk gparted openjdk-11-jdk steghide skype git gitg maven amarok ffmpeg exfa
 gimp gimp-plugin-registry fbreader kdenlive;  
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
+
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true;
+gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true;
+
 ```

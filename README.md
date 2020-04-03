@@ -23,6 +23,12 @@ gsettings set org.gnome.shell.extensions.dash-to-dock autohide true;
 gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;  
 
 ```
+#### Manual
+
+**- VeraCrypt:** https://www.veracrypt.fr/en/Downloads.html  
+- Dbeaver
+
+
 ## Dev
 
 ### zsh

@@ -17,17 +17,18 @@ echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;
 
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true;
 gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true;
-gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
-gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true;  
+gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;  
 
 ```
 ### vscode
 
 ``` bash
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg;  
-sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/;  
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg  
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/  
+
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] \  
-  https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list';
+  https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
 sudo apt install apt-transport-https;
 sudo apt update;

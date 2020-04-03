@@ -47,8 +47,8 @@ sudo apt install code;
 
 ``` bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | zsh
-nvm install 13
-nvm use 13
+nvm install v13.12.0
+nvm use v13.12.0
 
 ```
 

@@ -3,6 +3,8 @@
 My ubuntu preferences put on paper
 ---
 
+## Basic
+
 ``` bash
 sudo apt update;  
 sudo apt upgrade;  
@@ -21,6 +23,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock autohide true;
 gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;  
 
 ```
+## Dev
+
 ### vscode
 
 ``` bash
@@ -33,6 +37,18 @@ sudo apt update;
 sudo apt install code;
 
 ```
+
+## Photo
+
+### Darktable
+
+``` bash
+sudo add-apt-repository ppa:pmjdebruijn/darktable-release;
+sudo apt update;
+sudo apt install darktable;
+
+```
+
 
 ## OLD Version
 

@@ -17,5 +17,7 @@ echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;
 
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true;
 gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true;
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32
 
 ```

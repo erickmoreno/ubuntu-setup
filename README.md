@@ -13,5 +13,5 @@ sudo apt install vim cheese kazam backintime-gnome rar ubuntu-restricted-extras 
 testdisk gparted openjdk-11-jdk steghide skype git gitg maven amarok ffmpeg exfat-fuse exfat-utils \  
 gimp gimp-plugin-registry fbreader kdenlive;  
 
-echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment
+echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
 ```

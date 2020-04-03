@@ -11,7 +11,7 @@ sudo apt remove deja-dup rhythmbox thunderbird;
 
 sudo apt install vim curl cheese kazam backintime-gnome rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide skype git gitg maven amarok ffmpeg exfat-fuse exfat-utils \  
-gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks fslint;  
+gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks fslint apt-transport-https;  
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
 
@@ -27,10 +27,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg  
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/  
 
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] \  
-  https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
-sudo apt install apt-transport-https;
 sudo apt update;
 sudo apt install code;
 

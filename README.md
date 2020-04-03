@@ -43,6 +43,16 @@ sudo apt install code;
 
 ```
 
+### Node
+
+``` bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | zsh
+nvm install 13
+nvm use 13
+
+```
+
+
 ## Photo
 
 ### Darktable
@@ -65,13 +75,6 @@ Digikam:
   https://download.kde.org/stable/digikam/6.4.0/digikam-6.4.0-x86-64.appimage  
 	sudo apt-add-repository ppa:philip5/extra  
 	sudo apt install digikam showfoto  
-	
-NodeJS:
-
-	curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-	sudo apt install nodejs
-
-  https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 	
 
 Manualmente:

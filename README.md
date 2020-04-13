@@ -13,7 +13,7 @@ sudo apt remove deja-dup rhythmbox thunderbird;
 
 sudo apt install vim curl cheese kazam backintime-gnome rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide skype git gitg maven amarok ffmpeg exfat-fuse exfat-utils \  
-gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks fslint apt-transport-https zsh zsh-common;  
+gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks fslint apt-transport-https zsh zsh-common darktable;  
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
 
@@ -25,8 +25,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;
 ```
 #### Manual
 
-**- VeraCrypt:** https://www.veracrypt.fr/en/Downloads.html  
-- Dbeaver
+- [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)  
+- [Dbeaver](https://dbeaver.io/download)
 
 
 ## Dev
@@ -61,15 +61,6 @@ nvm use v13.12.0
 
 ## Photo
 
-### Darktable
-
-``` bash
-sudo add-apt-repository ppa:pmjdebruijn/darktable-release;
-sudo apt update;
-sudo apt install darktable;
-
-```
-
 
 ## OLD Version
 
@@ -90,7 +81,6 @@ Manualmente:
 - Eclipse: http://www.eclipse.org/downloads/
 - TeamViewer http://www.teamviewer.com/pt/download/linux.aspx
 - Spotify https://www.spotify.com/br/download/linux/
-- Rambox http://rambox.pro/#download
   
 Aparência:
 - Habilitar workspaces

@@ -32,12 +32,12 @@ gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;
 
 ## Dev
 
-### zsh
+**- zsh**
 
 https://www.addictivetips.com/ubuntu-linux-tips/switch-from-bash-to-zsh-on-linux/
 
 
-### vscode
+**- vscode**
 
 ``` bash
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg  
@@ -50,7 +50,7 @@ sudo apt install code;
 
 ```
 
-### Node
+**- Node**
 
 ``` bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | zsh
@@ -58,10 +58,12 @@ nvm install v13.12.0
 nvm use v13.12.0
 
 ```
-
+- [Eclipse](https://www.eclipse.org/downloads/packages)
+- [Android Studio](https://developer.android.com/studio)
 
 ## Photo
 
+- [Digikam](https://www.digikam.org/download)
 
 ## OLD Version
 
@@ -79,7 +81,6 @@ Manualmente:
 - TrueCrypt: https://www.grc.com/misc/truecrypt/truecrypt.htm
 - Chrome: http://www.google.com/intl/pt-BR/chrome/browser
 - Video plugin: https://www.google.com/chat/video
-- Eclipse: http://www.eclipse.org/downloads/
 - TeamViewer http://www.teamviewer.com/pt/download/linux.aspx
 - Spotify https://www.spotify.com/br/download/linux/
   
@@ -89,5 +90,4 @@ Aparência:
 - Remover som do cheese: /usr/share/sounds/freedesktop/stereo/camera-shutter...
   
 Firefox:
-- uBlock Origin
 - login Account

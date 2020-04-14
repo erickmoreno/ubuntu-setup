@@ -12,7 +12,7 @@ sudo apt upgrade;
 sudo apt remove deja-dup rhythmbox thunderbird;  
 
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
-testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils \  
+testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  
 gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks apt-transport-https zsh zsh-common darktable;  
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  

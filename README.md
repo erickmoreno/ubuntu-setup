@@ -9,7 +9,7 @@ My ubuntu preferences put on paper
 sudo apt update;  
 sudo apt upgrade;  
 
-sudo apt remove deja-dup rhythmbox thunderbird;  
+sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  

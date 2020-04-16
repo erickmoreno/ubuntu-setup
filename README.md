@@ -16,6 +16,17 @@ testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-
 gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks apt-transport-https zsh zsh-common darktable\  
 gnome-software-plugin-flatpak;
 
+# Flathub
+
+flatpak install flathub org.eclipse.Java
+flatpak install flathub com.google.AndroidStudio
+flatpak install flathub io.dbeaver.DBeaverCommunity
+
+flatpak install flathub org.darktable.Darktable
+
+flatpak install flathub com.spotify.Client
+
+
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
 
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true;
@@ -24,11 +35,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock autohide true;
 gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;  
 
 ```
-#### Manual
-
-- [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)  
-- [Spotify](https://flathub.org/apps/details/com.spotify.Client)
-
 
 ## Dev
 
@@ -58,31 +64,11 @@ nvm install v13.12.0
 nvm use v13.12.0
 
 ```
-#### Flathub
+#### By hand
 
-``` bash
-flatpak install flathub org.eclipse.Java
-flatpak install flathub com.google.AndroidStudio
-flatpak install flathub io.dbeaver.DBeaverCommunity
-```
-
-## Photo
-
-``` bash
-flatpak install flathub org.darktable.Darktable
-``` 
 - [Digikam](https://www.digikam.org/download)
-
-## OLD Version
-
-O que fazer após uma instalação do zero do Ubuntu
+- [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)
+- [Chrome](http://www.google.com/intl/pt-BR/chrome/browser)
+- [TeamViewer](http://www.teamviewer.com/pt/download/linux.aspx)
 - Instalar drivers proprietários da placa de vídeo e wireless
 - Habilitar software de terceiros empacotados pela canonical  
-	
-Manualmente:
-- Chrome: http://www.google.com/intl/pt-BR/chrome/browser
-- TeamViewer http://www.teamviewer.com/pt/download/linux.aspx
-  
-Aparência:
-- Habilitar workspaces
-- Remover hibernação quando baixar a tampa

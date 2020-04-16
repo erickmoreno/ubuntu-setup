@@ -27,7 +27,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;
 #### Manual
 
 - [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)  
-- [Dbeaver](https://dbeaver.io/download)
+- [Spotify](https://flathub.org/apps/details/com.spotify.Client)
 
 
 ## Dev
@@ -58,11 +58,19 @@ nvm install v13.12.0
 nvm use v13.12.0
 
 ```
-- [Eclipse](https://www.eclipse.org/downloads/packages)
-- [Android Studio](https://developer.android.com/studio)
+#### Flathub
+
+``` bash
+flatpak install flathub org.eclipse.Java
+flatpak install flathub com.google.AndroidStudio
+flatpak install flathub io.dbeaver.DBeaverCommunity
+```
 
 ## Photo
 
+``` bash
+flatpak install flathub org.darktable.Darktable
+``` 
 - [Digikam](https://www.digikam.org/download)
 
 ## OLD Version
@@ -70,24 +78,11 @@ nvm use v13.12.0
 O que fazer após uma instalação do zero do Ubuntu
 - Instalar drivers proprietários da placa de vídeo e wireless
 - Habilitar software de terceiros empacotados pela canonical  
-
-Digikam:
-  https://download.kde.org/stable/digikam/6.4.0/digikam-6.4.0-x86-64.appimage  
-	sudo apt-add-repository ppa:philip5/extra  
-	sudo apt install digikam showfoto  
 	
-
 Manualmente:
-- TrueCrypt: https://www.grc.com/misc/truecrypt/truecrypt.htm
 - Chrome: http://www.google.com/intl/pt-BR/chrome/browser
-- Video plugin: https://www.google.com/chat/video
 - TeamViewer http://www.teamviewer.com/pt/download/linux.aspx
-- Spotify https://www.spotify.com/br/download/linux/
   
 Aparência:
 - Habilitar workspaces
 - Remover hibernação quando baixar a tampa
-- Remover som do cheese: /usr/share/sounds/freedesktop/stereo/camera-shutter...
-  
-Firefox:
-- login Account

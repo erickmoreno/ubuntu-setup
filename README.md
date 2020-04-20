@@ -14,7 +14,7 @@ sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  
 gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks apt-transport-https zsh zsh-common darktable\  
-gnome-software-plugin-flatpak gnome-sound-recorder;
+gnome-software-plugin-flatpak gnome-sound-recorder apt-transport-https ca-certificates curl;
 
 # Flathub
 

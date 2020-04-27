@@ -14,25 +14,25 @@ sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  
 gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks apt-transport-https zsh zsh-common darktable\  
-gnome-software-plugin-flatpak gnome-sound-recorder apt-transport-https ca-certificates curl;
+gnome-software-plugin-flatpak gnome-sound-recorder apt-transport-https ca-certificates curl gnome-sushi chrome-gnome-shell;
 
 # Flathub
 
 flatpak install flathub org.eclipse.Java
 flatpak install flathub com.google.AndroidStudio
 flatpak install flathub io.dbeaver.DBeaverCommunity
-
 flatpak install flathub org.darktable.Darktable
-
 flatpak install flathub com.spotify.Client
 
+echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment
 
-echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment;  
-
-gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true;
-gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true;
-gsettings set org.gnome.shell.extensions.dash-to-dock autohide true;  
-gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32;  
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
+gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true
+gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
+gsettings set org.gnome.shell.extensions.dash-to-dockdash-max-icon-size 32
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ```
 

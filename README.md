@@ -1,7 +1,6 @@
 # Ubuntu setup
-
 My ubuntu preferences put on paper
----
+
 
 ## Basic
 

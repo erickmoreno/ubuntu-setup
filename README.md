@@ -82,6 +82,7 @@ nvm use v13.12.0
 - [Digikam](https://www.digikam.org/download)
 - [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)
 - [Chrome](http://www.google.com/intl/pt-BR/chrome/browser)
+- [Stacer](https://github.com/oguzhaninan/Stacer/releases)
 - [TeamViewer](http://www.teamviewer.com/pt/download/linux.aspx)
 - Install proprietary drivers for video card and wireless
 - Habilitar software de terceiros empacotados pela canonical  

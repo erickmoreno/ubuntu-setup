@@ -24,7 +24,7 @@ flatpak install flathub org.kde.kdenlive;
 flatpak install flathub com.spotify.Client;
 flatpak install flathub com.github.johnfactotum.Foliate;
 
-echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment
+echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/environment
 
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll true

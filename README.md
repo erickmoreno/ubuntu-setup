@@ -1,6 +1,6 @@
 # Ubuntu setup
-My ubuntu preferences put on paper
 
+My ubuntu preferences put on paper
 
 ## Basic
 
@@ -10,19 +10,14 @@ sudo apt upgrade;
 
 sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 
-sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
-testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  
-gimp gimp-plugin-registry gnome-tweaks apt-transport-https zsh zsh-common gnome-sushi \  
-gnome-software-plugin-flatpak gnome-sound-recorder ca-certificates chrome-gnome-shell;
+sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras \  
+testdisk gparted steghide maven ffmpeg exfat-fuse exfat-utils flatpak gnome-tweaks \ 
+apt-transport-https zsh zsh-common gnome-sushi gnome-software-plugin-flatpak \ 
+gnome-sound-recorder ca-certificates chrome-gnome-shell;
 
-# Flathub
-
-flatpak install flathub org.kde.digikam;
-flatpak install flathub org.darktable.Darktable;
-flatpak install flathub com.rawtherapee.RawTherapee;
-flatpak install flathub org.kde.kdenlive;
-flatpak install flathub com.spotify.Client;
-flatpak install flathub com.github.johnfactotum.Foliate;
+flatpak install flathub \
+ com.spotify.Client \
+ com.github.johnfactotum.Foliate;
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/environment
 
@@ -36,21 +31,34 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ```
 
+## Graphics
+
+``` bash
+sudo apt install gimp gimp-plugin-registry;
+
+flatpak install flathub org.kde.digikam \ 
+ com.rawtherapee.RawTherapee \ 
+ org.darktable.Darktable \ 
+ org.kde.kdenlive;
+
+```
+
 ## Dev
+
+``` bash
+sudo apt install build-essential openjdk-11-jdk git gitg maven;
+
+flatpak install flathub org.eclipse.Java \ 
+ io.dbeaver.DBeaverCommunity \ 
+ com.google.AndroidStudio \ 
+ com.visualstudio.code \ 
+ com.slack.Slack;
+
+```
 
 **- zsh**
 
 https://www.addictivetips.com/ubuntu-linux-tips/switch-from-bash-to-zsh-on-linux/
-
-**- IDEs**
-``` bash
-flatpak install flathub org.eclipse.Java;
-flatpak install flathub com.google.AndroidStudio;
-flatpak install flathub io.dbeaver.DBeaverCommunity;
-flatpak install flathub com.visualstudio.code;
-flatpak install flathub com.slack.Slack;
-
-```
 
 **- [Docker](https://docs.docker.com/engine/install/ubuntu)**
 
@@ -75,5 +83,5 @@ nvm use v13.12.0
 - [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html)
 - [Chrome](http://www.google.com/intl/pt-BR/chrome/browser)
 - [TeamViewer](http://www.teamviewer.com/pt/download/linux.aspx)
-- Instalar drivers proprietários da placa de vídeo e wireless
+- Install proprietary drivers for video card and wireless
 - Habilitar software de terceiros empacotados pela canonical  

@@ -12,16 +12,17 @@ sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras build-essential \  
 testdisk gparted openjdk-11-jdk steghide git gitg maven ffmpeg exfat-fuse exfat-utils flatpak \  
-gimp gimp-plugin-registry fbreader kdenlive gnome-tweaks apt-transport-https zsh zsh-common darktable\  
-gnome-software-plugin-flatpak gnome-sound-recorder apt-transport-https ca-certificates curl gnome-sushi chrome-gnome-shell;
+gimp gimp-plugin-registry gnome-tweaks apt-transport-https zsh zsh-common gnome-sushi \  
+gnome-software-plugin-flatpak gnome-sound-recorder ca-certificates chrome-gnome-shell;
 
 # Flathub
 
-flatpak install flathub org.eclipse.Java
-flatpak install flathub com.google.AndroidStudio
-flatpak install flathub io.dbeaver.DBeaverCommunity
-flatpak install flathub org.darktable.Darktable
-flatpak install flathub com.spotify.Client
+flatpak install flathub org.kde.digikam;
+flatpak install flathub org.darktable.Darktable;
+flatpak install flathub com.rawtherapee.RawTherapee;
+flatpak install flathub org.kde.kdenlive;
+flatpak install flathub com.spotify.Client;
+flatpak install flathub com.github.johnfactotum.Foliate;
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/enironment
 
@@ -41,24 +42,20 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 https://www.addictivetips.com/ubuntu-linux-tips/switch-from-bash-to-zsh-on-linux/
 
-
-**- vscode**
-
+**- IDEs**
 ``` bash
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg  
-sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/  
-
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
-sudo apt update;
-sudo apt install code;
+flatpak install flathub org.eclipse.Java;
+flatpak install flathub com.google.AndroidStudio;
+flatpak install flathub io.dbeaver.DBeaverCommunity;
+flatpak install flathub com.visualstudio.code;
+flatpak install flathub com.slack.Slack;
 
 ```
 
 **- [Docker](https://docs.docker.com/engine/install/ubuntu)**
 
 ``` bash
-sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt install gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 

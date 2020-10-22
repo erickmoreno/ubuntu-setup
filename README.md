@@ -17,6 +17,7 @@ gnome-sound-recorder ca-certificates chrome-gnome-shell;
 
 flatpak install flathub \
  com.spotify.Client \
+ com.github.debauchee.barrier \ 
  com.github.johnfactotum.Foliate;
 
 echo GTK_IM_MODULE=cedilla | sudo tee -a /etc/environment
@@ -51,6 +52,7 @@ sudo apt install build-essential openjdk-11-jdk git gitg maven;
 flatpak install flathub org.eclipse.Java \ 
  io.dbeaver.DBeaverCommunity \ 
  com.google.AndroidStudio \ 
+ com.getpostman.Postman \ 
  com.visualstudio.code \ 
  com.slack.Slack;
 

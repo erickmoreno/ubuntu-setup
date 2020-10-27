@@ -5,8 +5,7 @@ My ubuntu preferences put on paper
 ## Basic
 
 ``` bash
-sudo apt update;  
-sudo apt upgrade;  
+sudo apt update && sudo apt upgrade;  
 
 sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 
@@ -68,7 +67,7 @@ https://www.addictivetips.com/ubuntu-linux-tips/switch-from-bash-to-zsh-on-linux
 sudo apt install gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt update & sudo apt install docker-ce docker-ce-cli containerd.io
+sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io
 
 ```
 

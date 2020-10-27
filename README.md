@@ -11,7 +11,7 @@ sudo apt upgrade;
 sudo apt remove deja-dup rhythmbox thunderbird simple-scan;
 
 sudo apt install vim curl cheese kazam backintime-qt rar ubuntu-restricted-extras \  
-testdisk gparted steghide maven ffmpeg exfat-fuse exfat-utils flatpak gnome-tweaks \ 
+testdisk gparted steghide ffmpeg exfat-fuse exfat-utils flatpak gnome-tweaks \ 
 apt-transport-https zsh zsh-common gnome-sushi gnome-software-plugin-flatpak \ 
 gnome-sound-recorder ca-certificates chrome-gnome-shell;
 

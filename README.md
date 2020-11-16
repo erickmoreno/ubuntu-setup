@@ -34,11 +34,10 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 ## Graphics
 
 ``` bash
-sudo apt install gimp gimp-plugin-registry;
-
 flatpak install flathub org.kde.digikam \ 
  com.rawtherapee.RawTherapee \ 
  org.darktable.Darktable \ 
+ org.gimp.GIMP \
  org.kde.kdenlive;
 
 ```

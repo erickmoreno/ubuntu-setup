@@ -70,7 +70,7 @@ sudo apt update && sudo apt install docker-ce docker-ce-cli containerd.io
 
 ```
 
-**- Node**
+**- Node and [NVM](https://github.com/nvm-sh/nvm#installing-and-updating)**
 
 ``` bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | zsh
